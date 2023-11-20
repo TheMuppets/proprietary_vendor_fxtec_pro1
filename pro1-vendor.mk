@@ -25,7 +25,6 @@ PRODUCT_COPY_FILES += \
     vendor/fxtec/pro1/proprietary/system_ext/etc/permissions/qcrilhook.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qcrilhook.xml \
     vendor/fxtec/pro1/proprietary/system_ext/etc/permissions/qti_libpermissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_libpermissions.xml \
     vendor/fxtec/pro1/proprietary/system_ext/etc/permissions/qti_permissions.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/qti_permissions.xml \
-    vendor/fxtec/pro1/proprietary/system_ext/etc/permissions/telephonyservice.xml:$(TARGET_COPY_OUT_SYSTEM_EXT)/etc/permissions/telephonyservice.xml \
     vendor/fxtec/pro1/proprietary/system/lib64/com.qualcomm.qti.ant@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/com.qualcomm.qti.ant@1.0.so \
     vendor/fxtec/pro1/proprietary/system/lib64/fm_helium.so:$(TARGET_COPY_OUT_SYSTEM)/lib64/fm_helium.so \
     vendor/fxtec/pro1/proprietary/system_ext/lib64/lib-imscamera.so:$(TARGET_COPY_OUT_SYSTEM_EXT)/lib64/lib-imscamera.so \
@@ -728,6 +727,5 @@ PRODUCT_PACKAGES += \
     com.qti.dpmframework \
     dpmapi \
     qti-telephony-common \
-    QtiTelephonyServicelibrary \
     embmslibrary \
     qcrilhook
