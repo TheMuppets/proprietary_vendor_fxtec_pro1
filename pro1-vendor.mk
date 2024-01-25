@@ -726,6 +726,6 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     com.qti.dpmframework \
     dpmapi \
-    qti-telephony-common \
     embmslibrary \
-    qcrilhook
+    qcrilhook \
+    qti-telephony-common
