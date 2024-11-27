@@ -8,7 +8,7 @@ ifeq ($(TARGET_DEVICE),pro1)
 
 $(call add-radio-file-sha1-checked,radio/bluetooth.img,ae2675cb58beb4240e19e174dfe03ba42cf3662e)
 $(call add-radio-file-sha1-checked,radio/modem.img,c4bf81a328603fed40acdedac6e9fd195b5aa6fb)
-$(call add-radio-file-sha1-checked,radio/abl.img,d5b7b8473023a8219b9b943353a18b5278004d16)
+$(call add-radio-file-sha1-checked,radio/abl.img,302efaf62195455980cf8e3f67f9fbc0957ae254)
 $(call add-radio-file-sha1-checked,radio/dsp.img,9efd0c326cd631cdbeed4678cfafafd5265a9e73)
 $(call add-radio-file-sha1-checked,radio/cmnlib.img,da88ffb837fecea701af1c604f4bd876d4db8ca6)
 $(call add-radio-file-sha1-checked,radio/cmnlib64.img,6386e588264ced4e66376edafabc2697bbf692fe)
