@@ -8264,7 +8264,8 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
-    name: "com.qualcomm.qti.ant@1.0",
+    name: "com.qualcomm.qti.ant@1.0_vendor",
+    stem: "com.qualcomm.qti.ant@1.0",
     owner: "fxtec",
     strip: {
         none: true,
@@ -8647,7 +8648,7 @@ cc_prebuilt_library_shared {
                 "liblog",
                 "libhwbinder",
                 "libutils",
-                "com.qualcomm.qti.ant@1.0",
+                "com.qualcomm.qti.ant@1.0_vendor",
                 "android.hardware.bluetooth@1.0",
                 "android.hardware.bluetooth@1.0-impl-qti",
                 "libc++",
@@ -15566,7 +15567,7 @@ cc_prebuilt_binary {
                 "libhidltransport",
                 "android.hardware.bluetooth@1.0",
                 "vendor.qti.hardware.fm@1.0",
-                "com.qualcomm.qti.ant@1.0",
+                "com.qualcomm.qti.ant@1.0_vendor",
                 "libc++",
                 "libc",
                 "libm",
