@@ -188,6 +188,7 @@ PRODUCT_PACKAGES += \
     libqmi_common_so \
     libqmi_csi \
     libqmi_encdec \
+    libqmi_legacy \
     libqmiservices \
     libqsocket \
     libsdm-disp-vndapis \
@@ -572,7 +573,7 @@ PRODUCT_PACKAGES += \
     vendor.qti.hardware.mwqemadapter@1.0 \
     vendor.qti.hardware.qccsyshal@1.0_vendor \
     vendor.qti.hardware.qccvndhal@1.0-halimpl \
-    vendor.qti.hardware.qccvndhal@1.0 \
+    vendor.qti.hardware.qccvndhal@1.0_vendor \
     vendor.qti.hardware.qdutils_disp@1.0 \
     vendor.qti.hardware.qteeconnector@1.0 \
     vendor.qti.hardware.radio.am@1.0 \
@@ -647,9 +648,11 @@ PRODUCT_PACKAGES += \
     libimsmedia_jni \
     libmwqemiptablemgr \
     libqcc \
+    libqcc_file_agent_sys \
     vendor.qti.diaghal@1.0 \
     vendor.qti.hardware.qccsyshal@1.0-halimpl \
     vendor.qti.hardware.qccsyshal@1.0 \
+    vendor.qti.hardware.qccvndhal@1.0 \
     vendor.qti.imsrtpservice@3.0 \
     CneApp \
     IWlanService \
