@@ -8074,6 +8074,64 @@ cc_prebuilt_library_shared {
 }
 
 cc_prebuilt_library_shared {
+    name: "libwfdcommonutils_proprietary",
+    owner: "fxtec",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libwfdcommonutils_proprietary.so",
+            ],
+            shared_libs: [
+                "libmmosal_proprietary",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libion",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
+    name: "libwfdmmservice",
+    owner: "fxtec",
+    strip: {
+        none: true,
+    },
+    target: {
+        android_arm: {
+            srcs: [
+                "proprietary/vendor/lib/libwfdmmservice.so",
+            ],
+            shared_libs: [
+                "libmmosal_proprietary",
+                "liblog",
+                "libutils",
+                "libcutils",
+                "libbinder",
+                "libc++",
+                "libc",
+                "libm",
+                "libdl",
+            ],
+        },
+    },
+    compile_multilib: "32",
+    prefer: true,
+    soc_specific: true,
+}
+
+cc_prebuilt_library_shared {
     name: "libxapi_bokeh",
     owner: "fxtec",
     strip: {

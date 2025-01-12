@@ -412,6 +412,8 @@ PRODUCT_PACKAGES += \
     libsmwrapper \
     libvideoutils \
     libvqzip \
+    libwfdcommonutils_proprietary \
+    libwfdmmservice \
     libxapi_bokeh \
     libxapi_mfe \
     libasphere \
