@@ -198,7 +198,6 @@ PRODUCT_PACKAGES += \
     libvpplibrary \
     camera.msm8998 \
     sound_trigger.primary.msm8998 \
-    libOmxVideoDSMode \
     libUBWC \
     libacdb-fts \
     libacdbloader \
